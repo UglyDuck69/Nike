@@ -1,0 +1,527 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url(fonts/PlusJakartaSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins-Regular.ttf);
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(img/background.png);
+    background-color: #F5F5F5;
+}
+.rectangle1{
+    position: absolute;
+    left: calc(50% - 614px);
+    background-color: #020202;
+    height: 620px;
+    width: 1229px;
+    z-index: 1;
+    border-radius: 0px 0px 32px 32px;
+}
+.nikelogo{
+    width: 99px;
+    height: 87px;
+    left: -49.5px;
+    position: absolute;
+    z-index: +2;
+    background-color: #EFFB55;
+    border-radius: 0px 0px 8px 8px;
+    align-items: center;
+    justify-content: center;
+}
+.nike1{
+    width: 66px;
+    height: 66px;
+    margin-left: 18px;
+}
+.Franchise{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 18.4746px;
+line-height: 23px;
+text-align: center;
+margin-top: -10px;
+color: #020202;
+margin-left: calc(50% - 44px);
+}
+.nav{
+    display: flex;
+    width: 100%;
+    gap: calc(470px - 29px);
+}
+.nav1{
+    display: flex;
+    margin-left: 125px;
+    margin-top: 25px;
+}
+.navtxt{
+    margin-left: 25px;
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+.navbut{
+    border: 2px solid #FFFFFF;
+border-radius: 27px;
+width: 139px;
+height: 54px;
+background-color: transparent;
+margin-top: 18px;
+cursor: pointer;
+}
+.buttxt{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.06em;
+color: #EFFB56;
+}
+.header1{
+    margin-top: 78px;
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 54px;
+line-height: 68px;
+text-align: center;
+color: #FFFFFF;
+}
+.span1{
+    font-family: 'Poppins';
+font-weight: 600;
+font-size: 54px;
+line-height: 81px;
+text-align: center;
+font-style: italic;
+color: #EFFB55;
+}
+.description1{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -30px;
+}
+.but1{
+    width: 139px;
+height: 54px;
+background: #EFFB56;
+border-radius: 27px;
+text-align: center;
+border: none;
+margin-left: calc(50% - 69.5px);
+margin-top: 27px;
+cursor: pointer;
+}
+.buttxt2{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.06em;
+color: #020202;
+
+}
+.companiestxt{
+    font-family: 'Plus Jakarta Sans';
+font-style: italic;
+font-weight: 500;
+font-size: 15px;
+line-height: 19px;
+text-align: center;
+color: #656565;
+margin-top: 71px;
+}
+.logolist{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bring{
+    width: 126px;
+height: 45.07px;
+}
+.aksports{
+    width: 121.96px;
+height: 36.05px;
+}
+.alibaba{
+    width: 82.82px;
+height: 82.82px;
+}
+.japan{
+    width: 152.79px;
+height: 31.41px;
+}
+.rjsports{
+    width: 75.68px;
+    height: 54.68px;
+}
+.postnord{
+    width: 155.64px;
+height: 29.57px;
+}
+.singapore{
+    width: 126px;
+height: 45.07px;
+}
+.aadvertisment{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    top: 720px;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    white-space: nowrap;
+    gap: 35px;
+}
+
+.addivh1{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 91px;
+color: #24272B;
+margin-left: -260px;
+}
+.addivh2{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 91px;
+color: #24272B;
+margin-left: 30px;
+}
+.addivh3{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 91px;
+color: #24272B;
+margin-left: 30px;
+}
+.addivh4{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 91px;
+color: #24272B;
+margin-left: 30px;
+}
+
+
+.sendpng{
+    width: 32px;
+height: 32px;
+margin-top: -40px;
+margin-left: -30px;
+}
+
+.cards{
+    display: flex;
+    position: absolute;
+    top: 916px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.img1{
+    width: 378px;
+height: 462px;
+filter: drop-shadow(20px 40px 60px rgba(0, 0, 0, 0.25));
+}
+.img2{
+    width: 341.69px;
+height: 420.25px;
+filter: drop-shadow(20px 40px 60px rgba(0, 0, 0, 0.25));
+}
+.img3{
+    width: 368.14px;
+height: 451.78px;
+filter: drop-shadow(20px 40px 60px rgba(0, 0, 0, 0.25));
+}
+.img4{
+    float: right;
+    width: 308.54px;
+    height: 378.89px;
+    filter: drop-shadow(20px 40px 60px rgba(0, 0, 0, 0.25));
+}
+.shipping{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 1515px;
+    justify-content: space-around;
+}
+.shippingtxt{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 83.76px;
+line-height: 106px;
+
+color: #24272B;
+}
+.shippingimg{
+    border-radius: 16px;
+
+}
+.shippingtxt2{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 47px;
+line-height: 150%;
+color: #24272B;
+}
+.shipping2{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 2115px;
+    justify-content: space-around;
+}
+.shippingimg2{
+    border-radius: 16px;
+    background: radial-gradient(
+        50% 50% at 50% 50%, 
+        #D26A52 0%,
+        #FDBB55 72.92%,
+        #EBFF00 100%);
+        transform: rotate(-6deg);
+    background-image: url(img/แบรนด์-jordan\ 1.png);
+    width: 419.96px;
+    height: 357.14px;
+    z-index: 1;
+}
+.commingsoon{
+    top: 2630px;
+position: absolute;
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+width: 645px;
+left: calc(50% - 322.5px);
+line-height: 91px;
+text-align: center;
+text-transform: uppercase;
+color: #24272B;
+}
+.commingsoonimg{
+    position: absolute;
+width: 1396px;
+height: 541px;
+left: calc(50% - 698px);
+top: 2790px;
+}
+.FAQs{
+    position: absolute;
+    width: 190px;
+    height: 91px;
+    left: 701px;
+    top: 3471px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 91px;
+    color: #24272B;
+}
+.FAQs1{
+    position: absolute;
+    top: 3642px;
+    width: 745px;
+    height: 400px;
+    left: calc(50% - 372.5px);
+    display: grid;
+}
+.FAQs1div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 65px;
+}
+.FAQs1txt{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+color: #24272B;
+}
+.line{
+    position: absolute;
+width: 95px;
+height: 0px;
+left: 50%;
+top: 4098px;
+border: 1px solid #000000;
+transform: rotate(-90deg);
+}
+.but2{
+    width: 383px;
+height: 72.39px;
+top: 4234px;
+left: calc(50% - 150px);
+position: absolute;
+background: #050505;
+border-radius: 36.1942px;
+font-family: 'Plus Jakarta Sans';
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #F0FB56;
+}
+.footer{
+    position: absolute;
+    top: 4357px;
+    left: calc(50% - 655px);
+    width: 1310px;
+    height: 451.5px;
+    background: #030303;
+border-radius: 32px 32px 0px 0px;
+}
+.footerdiv1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+    margin-top: 60px;
+}
+.footerdiv1txt{
+    font-family: 'Plus Jakarta Sans';
+font-weight: 600;
+font-size: 15px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+.yellowdot{
+    width: 5.73px;
+height: 5.42px;
+background-color: #EFFB55;
+transform: rotate(-44.88deg);
+}
+.nikelogo1{
+    width: 99px;
+    height: 87px;
+    z-index: +2;
+    margin: 0 auto;
+    margin-top: 105px;
+    background-color: #EFFB55;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-45.17deg);
+}
+.termss{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 19px;
+text-align: center;
+margin-top: 100px;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+.Ellipse1{
+    position: absolute;
+    width: 814px;
+height: 764px;
+z-index: -1;
+top: 3984px;
+left: calc(50% - 370px);
+}
+.Ellipse2{
+    position: absolute;
+top: 1942px;
+margin-left: -50px;
+}
+.Ellipse3{
+    position: absolute;
+    bottom: 0;
+    border-radius: 30px;
+    
+}
+.polygon{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 30px;
+}
+
+
+
+.fading-div {
+    position: absolute;
+    display: flex;
+    top: 3131px;
+    width: 100%;
+    height: 90px;
+    margin-top: 30px;
+   transform: rotate(5.9deg);
+   background: linear-gradient(to left, transparent , yellow, transparent);
+   justify-content: space-between;
+   z-index: 2;
+}
+.fadingdivtxt1{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 42px;
+color: #24272B;
+}
+.fading-div2 {
+    position: absolute;
+    display: flex;
+    top: 3131px;
+    width: 100%;
+    height: 90px;
+   transform: rotate(-5.9deg);
+   
+   background: linear-gradient(to right, transparent, white, transparent);
+   justify-content: space-between;
+}
+.fadingdivtxt1{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 42px;
+color: #24272B;
+}
